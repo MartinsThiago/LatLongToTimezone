@@ -609,7 +609,7 @@ public class TimeZoneMapperConverter {
         abstract String getTimezone(LatLong latLong);
         abstract void toJavaSource(FileWriter o, int indent) throws IOException;
         abstract void toSwiftSource(FileWriter o, int indent) throws IOException;
-        abstract void toXamarinSource(FileWriter 0, int indent) throws IOException;
+        abstract void toXamarinSource(FileWriter o, int indent) throws IOException;
     }
 
     class PureTzNode extends TzNode {
